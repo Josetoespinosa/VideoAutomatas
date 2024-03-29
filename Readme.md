@@ -116,5 +116,5 @@ La ecuación de Euler es $e^{i\pi} + 1 = 0$.
 
 ## Vídeos
 
-![Video de ejemplo](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+[![Video de ejemplo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/208px-Markdown-mark.svg.png)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
