@@ -19,43 +19,140 @@ Como se mencionó previamente, este se suele incluir en la mayoría de repositor
 
 # Además, Markdown permite:
 
-- **Negritas** y *cursivas*.
-- Enlaces [como este](https://www.ejemplo.com).
-- Inclusión de imágenes ![imagen](https://www.ejemplo.com/imagen.png).
-- Listas ordenadas y no ordenadas.
-- Citas:
+# Características de Markdown
 
-> "Markdown es una forma sencilla de escribir en la web."
-> - John Gruber
+## Encabezados
 
-- Bloques de código:
+### Encabezado de tercer nivel
+
+#### Encabezado de cuarto nivel
+
+## Estilos de Texto
+
+**Negritas** y *cursivas*.
+
+## Listas
+
+### Listas no ordenadas:
+- Elemento 1
+- Elemento 2
+  - Subelemento 2.1
+  - Subelemento 2.2
+
+### Listas ordenadas:
+1. Primer elemento
+2. Segundo elemento
+   - Subelemento A
+   - Subelemento B
+
+## Enlaces
+
+[Enlace a Google](https://www.google.com)
+
+## Imágenes
+
+![Markdown Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Markdown-mark.svg/208px-Markdown-mark.svg.png)
+
+## Citas
+
+> "La imaginación es más importante que el conocimiento. El conocimiento es limitado. La imaginación rodea el mundo." - Albert Einstein
+
+## Código
+
+### Bloque de código:
 
 ```python
-def ejemplo():
-    print("Hola, mundo!")
+def saludar():
+    print("¡Hola desde Python!")
+
+saludar()
 ```
 
-## Tablas Avanzadas
+## Tablas
 
-| Columna 1      | Columna 2      | Columna 3      |
-|:--------------:|:--------------:|:--------------:|
-| Alineado       | Alineado       | Alineado       |
-| a la izquierda | al centro      | a la derecha   |
+| Producto     | Precio |
+|--------------|--------|
+| Manzanas     | $2     |
+| Naranjas     | $1.5   |
+| Plátanos     | $1     |
 
-## Bloques de Alerta
+## Líneas Horizontales
 
-> **Advertencia:** Este es un mensaje de advertencia.
+---
 
-> **Información:** Este es un mensaje informativo.
+## Tareas Pendientes
 
-> **Éxito:** Esta es una nota de éxito.
+- [x] Tarea completada
+- [ ] Tarea pendiente
+
+## Fórmulas Matemáticas
+
+La fórmula de la ecuación cuadrática es $ax^2 + bx + c = 0$.
+
+## Bloques de Notas
+
+:::note
+Esto es una nota.
+:::
+
+:::tip
+Esto es un consejo.
+:::
+
+:::warning
+Esto es una advertencia.
+:::
+
+:::danger
+Esto es un peligro.
+:::
+
+## HTML Personalizado
+
+<span style="color: red;">Texto personalizado en HTML.</span>
 
 ## Diagramas y Gráficos
 
 ```mermaid
 graph TD;
-    A-->B;
-    A-->C;
-    B-->D;
-    C-->D;
+  A-->B;
+  A-->C;
+  B-->D;
+  C-->D;
+
+## Integración con CSS
+
+<style>
+  .custom-style {
+    background-color: lightblue;
+    border: 1px solid blue;
+    padding: 10px;
+  }
+</style>
+
+<div class="custom-style">
+  Este es un texto con estilo personalizado.
+</div>
+
+## Emojis
+
+:smile: :thumbsup: :heart:
+
+## Soporte para Marcar Texto
+
+<mark>Texto marcado</mark>
+
+## Líneas de Comandos
+
+$ git clone https://github.com/ejemplo/repositorio.git
+$ cd repositorio
+$ nano archivo.txt
+
+## Ecuaciones
+
+La ecuación de Euler es $e^{i\pi} + 1 = 0$.
+
+## Vídeos
+
+[![Video de ejemplo](http://img.youtube.com/vi/T5xg-3Dz8nw/0.jpg)](http://www.youtube.com/watch?v=T5xg-3Dz8nw)
 
