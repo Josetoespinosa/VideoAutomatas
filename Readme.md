@@ -108,9 +108,9 @@ Esto es un peligro.
 :::
 
 ## HTML Personalizado
-
+```html
 <span style="color: red;">Texto personalizado en HTML.</span>
-
+```
 ## Diagramas y Gráficos
 
 ```mermaid
@@ -121,34 +121,20 @@ graph TD;
   C-->D;
 ```
 
-## Integración con CSS
-
-<style>
-  custom-style {
-    background-color: lightblue;
-    border: 1px solid blue;
-    padding: 10px;
-  }
-</style>
-
-<div id="custom-style">
-  Este es un texto con estilo personalizado.
-</div>
-
 ## Emojis
 
 :smile: :thumbsup: :heart:
 
 ## Soporte para Marcar Texto
-
+```html
 <mark>Texto marcado</mark>
-
+```
 ## Líneas de Comandos
-
+```terminal
 $ git clone https://github.com/ejemplo/repositorio.git
 $ cd repositorio
 $ nano archivo.txt
-
+```
 ## Ecuaciones
 
 La ecuación de Euler es $e^{i\pi} + 1 = 0$.
