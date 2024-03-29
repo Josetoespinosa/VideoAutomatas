@@ -33,6 +33,8 @@ Como se mencionó previamente, este se suele incluir en la mayoría de repositor
 ```python
 def ejemplo():
     print("Hola, mundo!")
+```
+
 
 # Características adicionales de Markdown
 
