@@ -44,20 +44,11 @@ def ejemplo():
 
 ## Bloques de Alerta
 
-:::warning 
-Advertencia
-Este es un mensaje de advertencia.
-:::
+> **Advertencia:** Este es un mensaje de advertencia.
 
-:::info 
-Información
-Este es un mensaje informativo.
-:::
+> **Información:** Este es un mensaje informativo.
 
-:::success 
-Éxito
-Esta es una nota de éxito.
-:::
+> **Éxito:** Esta es una nota de éxito.
 
 ## Diagramas y Gráficos
 
