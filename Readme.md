@@ -17,7 +17,7 @@ Markdown tiene un estilo muy simple, pero es un lenguaje muy utilizado a lo larg
 Como se mencionó previamente, este se suele incluir en la mayoría de repositorios de forma explicatoria para poder entender la función del código o los pasos a seguir para la implementación del código. Esto debido a ser un lenguaje que da una sensación visual ordenada y entendible al igual que su facilidad de escribir el código.
 
 
-### Además, Markdown permite:
+# Además, Markdown permite:
 
 - **Negritas** y *cursivas*.
 - Enlaces [como este](https://www.ejemplo.com).
@@ -35,11 +35,6 @@ def ejemplo():
     print("Hola, mundo!")
 ```
 
-
-# Características adicionales de Markdown
-
-Markdown es un lenguaje flexible que ofrece una variedad de características avanzadas para la creación de contenido enriquecido. Algunas de estas características incluyen:
-
 ## Tablas Avanzadas
 
 | Columna 1      | Columna 2      | Columna 3      |
@@ -49,15 +44,18 @@ Markdown es un lenguaje flexible que ofrece una variedad de características ava
 
 ## Bloques de Alerta
 
-:::warning Advertencia
+:::warning 
+Advertencia
 Este es un mensaje de advertencia.
 :::
 
-:::info Información
+:::info 
+Información
 Este es un mensaje informativo.
 :::
 
-:::success Éxito
+:::success 
+Éxito
 Esta es una nota de éxito.
 :::
 
