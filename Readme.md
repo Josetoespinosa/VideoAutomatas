@@ -124,14 +124,14 @@ graph TD;
 ## Integración con CSS
 
 <style>
-  .custom-style {
+  custom-style {
     background-color: lightblue;
     border: 1px solid blue;
     padding: 10px;
   }
 </style>
 
-<div class="custom-style">
+<div id="custom-style">
   Este es un texto con estilo personalizado.
 </div>
 
